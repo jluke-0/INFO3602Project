@@ -176,3 +176,34 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+function  movie_features(){
+       
+	//this tells Wordpress to edit the title of the page with title tag
+	add_theme_support('title-tag');
+
+	add_theme_support('post-thumbnails');
+
+	add_image_size('pictureLandscape',200, 200, true);
+
+}
+add_action('after_setup_theme', 'movie_features');
+
+add_filter('login_headerurl','ourHeaderUrl');
+ function ourHeaderUrl(){
+ return esc_url(site_url('/'));
+ }
+
+ function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/site-login-logo.png);
+		height: 80px;;
+		width:80px;
+		background-size: 80px 80px;
+		background-repeat: no-repeat;
+        	padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
