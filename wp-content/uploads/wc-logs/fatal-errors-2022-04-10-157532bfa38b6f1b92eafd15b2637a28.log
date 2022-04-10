@@ -1,0 +1,62 @@
+2022-04-10T00:08:24+00:00 CRITICAL syntax error, unexpected end of file in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\single-event.php on line 5
+
+2022-04-10T02:11:05+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/10/2022) at position 0 (3): Unexpected character in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php:30
+Stack trace:
+#0 D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php(30): DateTime->__construct('31/10/2022')
+#1 D:\Documents\Project\visions-studios\app\public\wp-includes\template-loader.php(106): include('D:\\Documents\\Pr...')
+#2 D:\Documents\Project\visions-studios\app\public\wp-blog-header.php(19): require_once('D:\\Documents\\Pr...')
+#3 D:\Documents\Project\visions-studios\app\public\index.php(17): require('D:\\Documents\\Pr...')
+#4 {main}
+  thrown in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 30
+
+2022-04-10T02:12:28+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/10/2022) at position 0 (3): Unexpected character in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php:31
+Stack trace:
+#0 D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php(31): DateTime->__construct('31/10/2022')
+#1 D:\Documents\Project\visions-studios\app\public\wp-includes\template-loader.php(106): include('D:\\Documents\\Pr...')
+#2 D:\Documents\Project\visions-studios\app\public\wp-blog-header.php(19): require_once('D:\\Documents\\Pr...')
+#3 D:\Documents\Project\visions-studios\app\public\index.php(17): require('D:\\Documents\\Pr...')
+#4 {main}
+  thrown in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 31
+
+2022-04-10T02:19:54+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/10/2022) at position 0 (3): Unexpected character in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php:31
+Stack trace:
+#0 D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php(31): DateTime->__construct('31/10/2022')
+#1 D:\Documents\Project\visions-studios\app\public\wp-includes\template-loader.php(106): include('D:\\Documents\\Pr...')
+#2 D:\Documents\Project\visions-studios\app\public\wp-blog-header.php(19): require_once('D:\\Documents\\Pr...')
+#3 D:\Documents\Project\visions-studios\app\public\index.php(17): require('D:\\Documents\\Pr...')
+#4 {main}
+  thrown in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 31
+
+2022-04-10T02:20:45+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/10/2022) at position 0 (3): Unexpected character in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php:2
+Stack trace:
+#0 D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php(2): DateTime->__construct('31/10/2022')
+#1 D:\Documents\Project\visions-studios\app\public\wp-includes\template-loader.php(106): include('D:\\Documents\\Pr...')
+#2 D:\Documents\Project\visions-studios\app\public\wp-blog-header.php(19): require_once('D:\\Documents\\Pr...')
+#3 D:\Documents\Project\visions-studios\app\public\index.php(17): require('D:\\Documents\\Pr...')
+#4 {main}
+  thrown in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 2
+
+2022-04-10T02:20:58+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/10/2022) at position 0 (3): Unexpected character in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php:31
+Stack trace:
+#0 D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php(31): DateTime->__construct('31/10/2022')
+#1 D:\Documents\Project\visions-studios\app\public\wp-includes\template-loader.php(106): include('D:\\Documents\\Pr...')
+#2 D:\Documents\Project\visions-studios\app\public\wp-blog-header.php(19): require_once('D:\\Documents\\Pr...')
+#3 D:\Documents\Project\visions-studios\app\public\index.php(17): require('D:\\Documents\\Pr...')
+#4 {main}
+  thrown in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 31
+
+2022-04-10T02:21:59+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (31/10/2022) at position 0 (3): Unexpected character in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php:29
+Stack trace:
+#0 D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php(29): DateTime->__construct('31/10/2022')
+#1 D:\Documents\Project\visions-studios\app\public\wp-includes\template-loader.php(106): include('D:\\Documents\\Pr...')
+#2 D:\Documents\Project\visions-studios\app\public\wp-blog-header.php(19): require_once('D:\\Documents\\Pr...')
+#3 D:\Documents\Project\visions-studios\app\public\index.php(17): require('D:\\Documents\\Pr...')
+#4 {main}
+  thrown in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 29
+
+2022-04-10T02:22:35+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 59
+
+2022-04-10T02:22:56+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 42
+
+2022-04-10T02:23:51+00:00 CRITICAL syntax error, unexpected end of file in D:\Documents\Project\visions-studios\app\public\wp-content\themes\astra\archive-event.php on line 46
+
